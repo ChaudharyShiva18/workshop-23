@@ -1,0 +1,236 @@
+.content {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow-y: scroll;
+}
+
+.material-icons {
+  margin-left: 25px;
+  color: #47d147;
+}
+.content-mob {
+  position: absolute;
+  top: 113px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow-y: scroll;
+}
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+.e1 {
+  font-size: 16;
+  font-family: Arial, Helvetica, default;
+  color: gray;
+  font-weight: 500;
+}
+.e2 {
+  font-size: 16;
+  font-family: Arial, Helvetica, default;
+  font-weight: 500;
+}
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.mat-card-header .mat-card-title {
+  font-size: inherit;
+}
+.example-card {
+  max-width: 320px;
+  margin: 10px 10px 10px 10px;
+}
+.example-container {
+  background-color: white;
+  height: 40%;
+}
+.example-card-active {
+  max-width: 320px;
+  margin: 10px 10px 10px 10px;
+  background-color: #1a8cff;
+  color: white;
+  white-space: nowrap;
+}
+
+.example-header-image {
+  height: 60px;
+  width: 60px;
+  margin-top: 10px;
+  background-image: url("https://tinyurl.com/3r97uy54");
+  background-size: cover;
+  white-space: nowrap;
+}
+
+.example-header-image1 {
+  height: 100px;
+  width: 100px;
+  margin-top: 10px;
+  background-image: url("https://tinyurl.com/3r97uy54");
+  background-size: cover;
+  white-space: nowrap;
+}
+
+.mat-drawer {
+  position: fixed;
+  margin-top: 65px;
+  width: 14.2%;
+  background-color: #e6f2ff;
+}
+
+.example-sidenav-content {
+  margin: 30px 5px 5px 5px;
+  padding: 0px 10px;
+  height: 100%;
+  background-color: white;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
+}
+.main-content3 {
+  display: flex;
+  flex-direction: row;
+}
+.main-content2 {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+
+.inner-content {
+  display: flex;
+  flex-direction: row;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+}
+.cards-active {
+  position: relative;
+  padding: 10px 25px;
+  text-align: center;
+  background-color: white;
+  font-size: 14;
+  font-family: Arial, Helvetica, default;
+  color: #1a8cff;
+  font-weight: 500;
+  border-top-style: solid;
+  border-right-style: solid;
+  border-bottom-style: none;
+  border-left-style: solid;
+  border-color: gray;
+  border-width: 0.5px;
+}
+.cards {
+  position: relative;
+  padding: 10px 25px;
+  text-align: center;
+  background-color: white;
+  font-size: 14;
+  font-family: Arial, Helvetica, default;
+  color: gray;
+  font-weight: 500;
+  border-width: 1px;
+  border-color: gray;
+  border-bottom-style: solid;
+  margin-right: 1px;
+}
+
+.c1 {
+  background-color: #e9f5ff;
+  width: 40%;
+  padding: 10px 10px;
+  margin-top: 10px;
+  font-size: 14;
+  font-family: Arial, Helvetica, default;
+  font-weight: 500;
+}
+.c3 {
+  background-color: #e9f5ff;
+  width: 40%;
+  padding: 20px 0px 0px 10px;
+  font-size: 14;
+  font-family: Arial, Helvetica, default;
+  font-weight: 500;
+}
+.c2 {
+  background-color: #f5f5ef;
+  width: 40%;
+  padding: 10px 10px;
+  margin-bottom: 10px;
+  font-size: 14;
+  font-family: Arial, Helvetica, default;
+}
+.c4 {
+  background-color: #f5f5ef;
+  width: 40%;
+  padding: 10px 0px 0px 10px;
+  font-size: 14;
+  font-family: Arial, Helvetica, default;
+}
+.main-content1 {
+  display: flex;
+  flex-direction: row;
+  white-space: nowrap;
+}
+
+.material-icons {
+  margin-top: 25px;
+  padding-top: 5px;
+}
+.list-item:hover {
+  background-color: rgba(83, 83, 83, 0.178);
+  cursor: pointer;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: "#ffffff";
+}
+
+.colo {
+  background-color: "#f5f5ef";
+  margin-top: -40px;
+  margin-right: -24px;
+  margin-left: 30px;
+}
+.drawcoll {
+  background-color: "#e6e6e6";
+  margin-top: 7px;
+  margin-left: 10px;
+  margin-bottom: -15px;
+}
+.set {
+  background-color: "#f5f5ef";
+  margin-left: 50px;
+  border-color: "#d7d7c1";
+}
+.pset {
+  padding: 0;
+  font-size: 13px;
+  margin-top: 15px;
+  margin-left: 19px;
+  font-family: "Arial, Helvetica, default";
+}
+.datePanel {
+  padding-left: 1100px;
+  align: "left";
+  font-size: 13px;
+}
+.patientInfo {
+  font-size: 20px;
+  font-weight: 600;
+  padding-bottom: 4px;
+}

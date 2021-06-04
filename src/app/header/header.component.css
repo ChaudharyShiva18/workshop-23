@@ -1,0 +1,74 @@
+.sticky {
+  padding: 0px;
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  z-index: 10;
+}
+
+.active-button {
+  background-color: #1a8cff;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.passive-button {
+  background-color: white;
+  border: none;
+  color: rgb(5, 5, 5);
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.pages {
+  display: "block";
+  color: "black";
+  padding: "24px 21px 25px 21px";
+  text-decoration: "none";
+  text-align: "center";
+  font-size: 14;
+  font-family: "Arial; Helvetica; default";
+  font-weight: "bold";
+}
+
+.grow {
+  flex-grow: 1;
+  text-align: end;
+}
+
+.example-header-image {
+  background-image: url("https://tinyurl.com/dk3bpfjw");
+  background-size: cover;
+  border-radius: 50%;
+  margin-left: 1%;
+  height: 40px;
+  width: 40px;
+}
+
+.root {
+  margin: "theme.spacing(1)";
+}
+
+.rigthnavbar {
+  color: "black";
+  margin-top: -12;
+  margin-left: -40;
+}
+
+.logo {
+  padding: 0px 5px;
+  font-size: 20px;
+}
+
+.bs {
+  display: flex;
+  margin-left: 50px;
+}

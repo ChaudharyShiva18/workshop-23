@@ -1,0 +1,41 @@
+<mat-toolbar style="background-color: white;" class="sticky">
+  <mat-toolbar-row fxLayoutAlign="space-between center">
+    <div fxLayout="row">
+      
+        <mat-icon style="margin-right: 50px; margin-left: 20px;"><img mat-card-image style="height: 45px;
+          width: 45px;margin-top: 10px; " src="https://bit.ly/3vgq3Gl" alt="Logo"></mat-icon>
+      <div *ngIf="!deviceXs" fxLayout="row" fxLayoutAlign="space-between center" class="bs">
+        <div mat-button class="active-button">PATIENTS</div>
+        <div mat-button class="passive-button">CALENDAR</div>
+        <div mat-button class="passive-button">USERS</div>
+        <div mat-button class="passive-button">BILLING</div>
+      </div>
+    </div>
+      <div *ngIf="!deviceXs" fxLayoutAlign.xs="center center" class="grow" >
+        <div >
+          <p>
+            <mat-icon matBadge="1" matBadgeColor="warn" style="margin-top: 30px; margin-right: 10px;"><span class="material-icons">
+              notifications
+              </span></mat-icon>
+          </p>
+        </div>  
+      </div>
+      <div *ngIf="!deviceXs"  class="example-header-image" ></div>
+    <div>
+      <button *ngIf="deviceXs" mat-icon-button [matMenuTriggerFor]="menu">
+        <mat-icon>more_vert</mat-icon>
+      </button>
+      
+    </div>
+  </mat-toolbar-row>
+  
+</mat-toolbar>
+<!-- Menu Items -->
+<mat-menu #menu="matMenu" fxLayoutAlign="end">
+<div>
+  <button class ="bs" mat-button>PATIENTS</button>
+  <button class ="bs"  mat-button>CALENDAR</button>
+  <button class ="bs"  mat-button>USERS</button>
+  <button class ="bs"  mat-button>BILLING</button>
+</div>
+</mat-menu>
